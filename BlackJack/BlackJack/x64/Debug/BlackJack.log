@@ -1,0 +1,6 @@
+﻿  Card.cpp
+  Card.h
+  main.cpp
+  Generating Code...
+x64\Debug\Card.obj : warning LNK4042: object specified more than once; extras ignored
+  BlackJack.vcxproj -> D:\BlackJack\BlackJack\x64\Debug\BlackJack.exe
