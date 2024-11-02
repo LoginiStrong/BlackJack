@@ -12,8 +12,9 @@ public:
 	int amountOfAces();
 	void addAce();
 	void clearHand();
+	void clearAce();
 
 private:
-	vector<Card*> hand;
-	int aceAmount;
+	vector<Card*> hand;//players current hand
+	int aceAmount;//amount of aces the player has
 };

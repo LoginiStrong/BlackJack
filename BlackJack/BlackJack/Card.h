@@ -15,7 +15,7 @@ public:
 
 
 private:
-	int cardValue;
-	string cardFace;
-	string suit;
+	int cardValue;//variable that holds the value of the card based on the rules of BlackJack
+	string cardFace;//is the face of the card (such as Ace, 2, King, etc)
+	string suit;//the suit of the cards
 };

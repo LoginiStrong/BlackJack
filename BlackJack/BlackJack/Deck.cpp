@@ -1,10 +1,14 @@
 #include "Deck.h"
 
+//Class and object that encapsulates all 52 unique crad objects (the constructor is the main reason for this class)
+
+//this function returns the vector of cards in the deck
 vector<Card*> Deck::showDeck()
 {
 	return tablesDeck;
 }
 
+//this function uses a looped switch case statement to construct all 52 standard cards in a deck
 void Deck::makeDeck()
 {
 	string suit = " of Hearts";

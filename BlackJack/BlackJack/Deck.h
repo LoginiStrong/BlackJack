@@ -10,5 +10,5 @@ public:
 	vector<Card*> showDeck();
 
 private:
-	vector<Card*> tablesDeck;
+	vector<Card*> tablesDeck;//vector that holds all 52 standard cards
 };
